@@ -26,7 +26,6 @@ public class UserResponseMapper implements Mapper<User, UserResponse> {
                 .firstName(user.getFirstName())
                 .lastName(user.getLastName())
                 .totalAmount(user.getTotalAmount())
-                .monthlyQuota(user.getMonthlyQuota())
                 .productsOwned(productService.listUsersProducts(user.getId()))
                 .build();
 

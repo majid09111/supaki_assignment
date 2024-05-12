@@ -111,7 +111,6 @@ public class ProductService {
         product.setQuantity((product.getQuantity()-1));
 
         seller.setSellDate(new Timestamp(System.currentTimeMillis()));
-        buyer.setMonthlyQuota((buyer.getMonthlyQuota()-1));
         buyer.setBuyDate(new Timestamp(System.currentTimeMillis()));
 
         Transaction transaction = new Transaction();
