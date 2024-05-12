@@ -32,9 +32,6 @@ public class User {
     @Column(name="buy_date")
     private Timestamp buyDate;
 
-    @Column(name="monthly_quota")
-    private long monthlyQuota;
-
     @Column(name="total_amount")
     private long totalAmount;
 

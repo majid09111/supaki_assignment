@@ -33,7 +33,6 @@ public class UserService {
         user.setEmail(createUserRequest.getEmail());
         user.setFirstName(createUserRequest.getFirstName());
         user.setLastName(createUserRequest.getLastName());
-        user.setMonthlyQuota(1);
         userRepository.save(user);
 
         return userResponseMapper.toPojo(user);

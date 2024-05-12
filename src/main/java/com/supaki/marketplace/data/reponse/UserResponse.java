@@ -13,7 +13,6 @@ public class UserResponse {
     private String email;
     private String firstName;
     private String lastName;
-    private long monthlyQuota;
     private long totalAmount;
     private List<UserAccountDetailResponse> productsOwned;
 }

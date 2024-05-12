@@ -109,9 +109,8 @@ public class ProductService {
         }
 
         product.setQuantity((product.getQuantity()-1));
-        seller.setTotalAmount((seller.getTotalAmount()+product.getPrice()));
+
         seller.setSellDate(new Timestamp(System.currentTimeMillis()));
-        buyer.setMonthlyQuota((buyer.getMonthlyQuota()-1));
         buyer.setBuyDate(new Timestamp(System.currentTimeMillis()));
 
         Transaction transaction = new Transaction();
@@ -123,6 +122,7 @@ public class ProductService {
         double sellerAmount = (product.getPrice()*1.0)-commission;
         transaction.setSellerAmount(sellerAmount);
         transaction.setCommissionAmount(commission);
+        seller.setTotalAmount((long) (seller.getTotalAmount()+sellerAmount));
 
         productRepository.save(product);
         userRepository.save(seller);
