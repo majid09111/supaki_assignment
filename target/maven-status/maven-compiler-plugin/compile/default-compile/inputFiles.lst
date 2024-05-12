@@ -1,4 +1,6 @@
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/controller/ProductController.java
+/Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/repository/UserAccountRepository.java
+/Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/entity/UserAccount.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/repository/TransactionRepository.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/reponse/BaseResponse.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/entity/Product.java
@@ -7,6 +9,7 @@
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/reponse/mapper/Mapper.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/MarketplaceApplication.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/enums/ProductType.java
+/Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/reponse/UserAccountDetailResponse.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/controller/UserController.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/reponse/ListProducts.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/reponse/UserResponse.java
@@ -14,6 +17,7 @@
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/request/ProductRequest.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/entity/Transaction.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/reponse/mapper/UserResponseMapper.java
+/Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/reponse/mapper/UserAccountDetailResponseMapper.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/config/db/AbstractPoolConfiguration.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/repository/UserRepository.java
 /Users/mohammadmajidmasroor/Documents/supaki_assignment/src/main/java/com/supaki/marketplace/data/entity/User.java
